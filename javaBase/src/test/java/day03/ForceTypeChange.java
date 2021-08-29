@@ -46,6 +46,7 @@ public class ForceTypeChange {
         //编译不通过，234。4默认为double型，应该强制转换为float
         //float f1 = 234.4;
         float f2 = (float)234.4;
+        float f3 = 234.4f;
 
 
     }
