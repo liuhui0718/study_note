@@ -3,7 +3,7 @@ package day03;
 强制类型转换:自动提升类型的逆运算
     说明：
         1，需要使用强转符：（）如：double转变成int型    int 变量名称 = （int）double变量
-        2，注意点：强制类型转换，可能导致精度丢失
+        2，注意点：强制类型转换，可能导致精度丢失。
 
 
  */
@@ -46,6 +46,7 @@ public class ForceTypeChange {
         //编译不通过，234。4默认为double型，应该强制转换为float
         //float f1 = 234.4;
         float f2 = (float)234.4;
+        float f3 = 234.4f;
 
 
     }
