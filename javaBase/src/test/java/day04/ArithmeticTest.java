@@ -31,11 +31,11 @@ public class ArithmeticTest {
 
         int a1 = 10;
         int b1 = ++ a1;
-        System.out.println(a1+" "+b1);
+        System.out.println(a1+" "+b1);//11，11
 
         int a2 = 10;
-        int b2 = a1++;
-        System.out.println(a2+" "+b2);
+        int b2 = a2++;
+        System.out.println(a2+" "+b2);//11，10
 
         //注意点：
         short a3 = 123;//想让他实现+1
