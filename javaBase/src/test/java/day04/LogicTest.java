@@ -1,7 +1,7 @@
 package day04;
 /*
 运算符之四：逻辑运算符
-    &       &&      ｜       ｜｜      ^
+    &       &&      ｜       ｜｜      ^       ！
  */
 
 public class LogicTest {
