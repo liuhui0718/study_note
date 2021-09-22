@@ -17,7 +17,7 @@ public class ForTest {
     public static void main(String[] args) {
 
         //练习：编写程序从1循环到150，并在每行打印一个值
-        //      另外，在每个3的倍数行上答应出"foo"，在每个5的倍数行上打印"biz"，在每个7的倍数行上打印"baz"
+        //      另外，在每个3的倍数行上答应出"for"，在每个5的倍数行上打印"biz"，在每个7的倍数行上打印"baz"
 
         for (int i = 1; i <=150; i++) {
             System.out.print(i);
