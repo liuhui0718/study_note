@@ -43,6 +43,7 @@ public class SwitchCaseTest {
                 System.out.println("one");
             case 2:
                 System.out.println("two");
+                break;
             case 3:
                 System.out.println("three");
         }
