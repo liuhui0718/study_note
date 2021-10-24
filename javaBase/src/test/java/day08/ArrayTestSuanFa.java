@@ -43,14 +43,15 @@ public class ArrayTestSuanFa {
 
 
         //二分法查找：前提：所要查找的数组必须有序
-        int[] array = new int[]{-24,-22,-10,-2,-1,0,8,25,66,99,100};
+        int[] array = new int[]{-24,-22,-10,-2,0,8,25,66,99,100};
 
-        int dest1 = 0;
+        int dest1 = -2;
         int start = 0;
         int end = array.length-1;
         boolean isFlag1 = true;
         for (int i = 0; i < array.length /2 ; i++) {
             int middle = (start + end) / 2;
+            System.out.println(middle);
             if (dest1 == array[middle]){
                 System.out.println("恭喜找到指定元素，位置为"+ middle);
                 isFlag1 = false;
