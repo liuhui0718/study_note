@@ -27,7 +27,7 @@ package day09;
             属性：类的属性，根据其类型，都有默认的初始化值
                 整形（byte、short、int、long）0
                 浮点型（double、float） 0.0
-                字符型（char） 0 或\u0000
+                字符型（char） 0 或'\u0000'
                 boolean型（boolean） false
 
                 引用数据类型（类、数组、接口、String） null

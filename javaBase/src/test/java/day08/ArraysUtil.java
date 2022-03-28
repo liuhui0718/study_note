@@ -24,6 +24,7 @@ public class ArraysUtil {
 
         //3,void   Arrays.fill(array):将指定值填充到数组中
         Arrays.fill(arr1,2);
+        Arrays.fill(arr1,0,2,4);
         System.out.println(Arrays.toString(arr1));
 
 
