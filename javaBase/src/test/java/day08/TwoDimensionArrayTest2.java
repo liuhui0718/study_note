@@ -12,22 +12,54 @@ package day08;
  */
 public class TwoDimensionArrayTest2 {
     public static void main(String[] args) {
-        int[] num = new int[6];
-        for (int i = 0; i <num.length; i++) {
-            num[i] = (int) (Math.random()*30 + 1);
-            if (i>0){
-                for (int j = 0; j < i; j++) {
-                    if (num[i]== num[j]){
-                        i--;break;
 
-                    }
-
-
+        int[] array = new int[6];
+        for (int i = 0; i < array.length; i++) {
+            array[i] = (int) (Math.random() *30 +1);
+            for (int j = 0; j < i; j++) {
+                if (array[i] == array[j]){
+                    i--;
+                    break;
                 }
+
             }
-            System.out.println(num[i]);
 
         }
+
+        for (int i = 0; i <array.length ; i++) {
+            System.out.print(array[i] +"  ");
+
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//        int[] num = new int[6];
+//        for (int i = 0; i <num.length; i++) {
+//            num[i] = (int) (Math.random()*30 + 1);
+//            if (i>0){
+//                for (int j = 0; j < i; j++) {
+//                    if (num[i]== num[j]){
+//                        i--;break;
+//
+//                    }
+//
+//
+//                }
+//            }
+//            System.out.println(num[i]);
+//
+//        }
 
     }
 }
