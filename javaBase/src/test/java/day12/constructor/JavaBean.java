@@ -1,7 +1,7 @@
 package day12.constructor;
 
 /**
- * JavaBean是java语言x写成的可可重用组件
+ * JavaBean是java语言写成的可重用组件
  *
  * 所谓JavaBean，是指符合如下标准的java类
  *      1，类是公共的
