@@ -9,7 +9,7 @@ public class BasicAnnotation {
     @Test
     public void testCase1(){
         System.out.println("测试用例1");
-        log.info("测试用例1");
+        //log.info("测试用例1");
 
     }
 

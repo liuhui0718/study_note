@@ -1,5 +1,6 @@
+import com.sun.xml.internal.bind.v2.runtime.unmarshaller.Loader;
 import lombok.SneakyThrows;
-import org.bytedeco.javacpp.Loader;
+//import org.bytedeco.javacpp.Loader;
 import org.testng.annotations.Test;
 
 import java.io.BufferedReader;
@@ -40,14 +41,12 @@ public class Test01 {
 //        } catch (IOException | InterruptedException e) {
 //            e.printStackTrace();
 //        }
-            String ffmpeg = Loader.load(org.bytedeco.ffmpeg.ffmpeg.class);
-            ProcessBuilder pb = new ProcessBuilder(ffmpeg, "-i", "/Users/liuhui/Desktop/share_08d5cc2b9a50d63ae587608d4b815b27.mp4", "-vcodec", "h264", "/Users/liuhui/Desktop/nw.jpg");
-            pb.inheritIO().start().waitFor();
+        //String ffmpeg = Loader.load(org.bytedeco.ffmpeg.ffmpeg.class);
+        // ProcessBuilder pb = new ProcessBuilder(ffmpeg, "-i", "/Users/liuhui/Desktop/share_08d5cc2b9a50d63ae587608d4b815b27.mp4", "-vcodec", "h264", "/Users/liuhui/Desktop/nw.jpg");
+        // pb.inheritIO().start().waitFor();
 
 
-        }
-
-
+    }
 
 
     public void files(String romatefilename) {

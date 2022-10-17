@@ -1,0 +1,26 @@
+package day07;
+/*
+求100以内的质数；实现方式一
+质数：除了1和本身之外，没有其他的约数,质数是从2开始的
+ */
+
+public class PrimeNumber1 {
+
+    public static void main(String[] args) {
+
+
+        for (int i = 2; i < 100; i++) {
+            boolean isFlag = true;//标识i是否被j除尽，一旦除尽，修改其值
+            for (int j = 2; j < i; j++) {
+                if (i % j == 0){
+                  isFlag =false;
+                }
+
+            }if (isFlag == true){
+                System.out.println(i);
+            }
+
+        }
+    }
+
+}

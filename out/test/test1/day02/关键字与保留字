@@ -1,0 +1,22 @@
+关键字与保留字
+
+1，关键字与保留字的定义和特点
+    定义：被java语言赋予了特殊含义，用做专门用途的字符串（单词）
+    特点：关键字中所有字母都为小写
+    用于定义数据类型的关键字：
+        eg：class、interface、int、long、float、double、byte、short、char、boolean、void等
+
+    用于定义控制流程的关键字：
+        eg：if、else、switch、case、default、while、do、for、break、continue、return等
+
+    用于定义访问权限修饰符关键字：
+        eg：private、protected、public
+
+
+    保留字：
+    java保留字（reserved word）现在java版本尚未使用，但是以后版本可能会作为关键字使用。自己命名标识符时要避免使用这些保留字
+    goto const（定义一个常量）
+
+
+
+

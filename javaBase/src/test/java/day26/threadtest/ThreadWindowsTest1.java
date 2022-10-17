@@ -2,6 +2,9 @@ package day26.threadtest;
 
 /**
  * 创建三个窗口，总票数为100张
+ *
+ *
+ * 存在线程安全问题，待解决
  */
 
 class Windows extends Thread{
@@ -31,7 +34,7 @@ class Windows extends Thread{
     }
 }
 
-public class ThreadWindowsTest {
+public class ThreadWindowsTest1 {
 
     public static void main(String[] args) {
         Windows w1 = new Windows();

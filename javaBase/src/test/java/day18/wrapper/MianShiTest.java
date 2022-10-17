@@ -1,6 +1,7 @@
 package day18.wrapper;
 
-import org.testng.annotations.Test;
+import org.junit.Test;
+
 
 /**
  * @Author Miracle Liuhui
