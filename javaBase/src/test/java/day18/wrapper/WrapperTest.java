@@ -1,6 +1,6 @@
 package day18.wrapper;
 
-import org.testng.annotations.Test;
+import org.junit.Test;
 
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
@@ -19,8 +19,10 @@ import java.util.List;
  */
 public class WrapperTest {
 
+
     @Test
     public void test1() {
+
         int num1 = 20;
 //        System.out.println(num1.toString()); 此时num1是基本数据类型
 

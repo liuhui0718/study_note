@@ -1,6 +1,7 @@
 package day18.wrapper;
 
-import org.testng.annotations.Test;
+
+import org.junit.Test;
 
 /**
  * @Author Miracle Liuhui
@@ -8,6 +9,7 @@ import org.testng.annotations.Test;
  * @Version 1.0
  */
 public class MianShiTest {
+
 
     @Test
     public void test1(){
