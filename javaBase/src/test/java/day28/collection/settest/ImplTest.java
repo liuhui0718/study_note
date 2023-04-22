@@ -12,4 +12,12 @@ public class ImplTest {
 
 
     }
+
+
+    public <T> T genercMethod(T t){
+        System.out.println(t.getClass());
+        return t;
+    }
+
+
 }
