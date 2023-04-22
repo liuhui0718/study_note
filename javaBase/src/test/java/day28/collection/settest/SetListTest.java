@@ -29,7 +29,7 @@ public class SetListTest {
     /**
      * 一：set存储无序的，不可重复的数据
      以HashSet为例说明
-     1，无序性：不等于随机性，存储的数据在底层数组中并非按照数组索引的顺序添加，而是根据数据的哈希值；唉添加
+     1，无序性：不等于随机性，存储的数据在底层数组中并非按照数组索引的顺序添加，而是根据数据的哈希值去添加
      2，不可重复性：保证添加的元素在按照equals（）判断时，不返回true，即：想通过的元素只能添加一个
 
      二：添加元素的过程，以HashSet为例
@@ -72,12 +72,9 @@ public class SetListTest {
 
     /**
      * LinkedHashSet的使用
-     * LinkedHashSet作为HashSet的子类，在添加数据的同时，每个数据还维护了两个应用，此路此数据签个数据和后一个数据
+     * LinkedHashSet作为HashSet的子类，在添加数据的同时，每个数据还维护了两个应用，记录此数据前一个数据和后一个数据
      * 优点：对于频繁的遍历操作，LinkedHashSet效率高于HashSet
       */
-
-
-
 
 
     @Test

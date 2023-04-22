@@ -1,6 +1,6 @@
 package day28.collection.settest;
 
-public class User {
+public class User implements Comparable{
     private String name;
     private int age;
 
@@ -52,5 +52,18 @@ public class User {
         int result = name.hashCode();
         result = 31 * result + age;
         return result;
+    }
+
+
+    //按照姓名从小到大的顺序排列
+    @Override
+    public int compareTo(Object o) {
+        if (o instanceof User){
+            User user = (User) o;
+            return  this.name.compareTo(user.name);
+        }else {
+            throw new RuntimeException("输入信息有误");
+        }
+
     }
 }
