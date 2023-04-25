@@ -3,6 +3,7 @@ package day29.maptest;
 import org.junit.Test;
 
 import java.util.HashMap;
+import java.util.LinkedHashMap;
 import java.util.Map;
 
 /**
@@ -67,6 +68,16 @@ import java.util.Map;
 
 public class MapTest {
 
+
+    @Test
+    public void test02(){
+        Map map = new HashMap();
+        map = new LinkedHashMap();
+        map.put(123,"oo");
+        map.put(456,"yy");
+        map.put(7898,"rr");
+        System.out.println(map);
+    }
     @Test
     public void test01(){
         Map map = new HashMap<>();
